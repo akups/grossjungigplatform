@@ -23,7 +23,7 @@ const routes = require("./routes"); // this is our controller and will manage al
 app.use(routes);
 
 app.use((req, res) => {
-  res.sendFile(__dirname + "/client/build/index.html"); // 1. this will be added as part of deployment process in order to allow people to view from any server
+  res.sendFile(__dirname + "/frontend/build/index.html"); // 1. this will be added as part of deployment process in order to allow people to view from any server
 });
 
 app.listen(process.env.PORT, () => {
