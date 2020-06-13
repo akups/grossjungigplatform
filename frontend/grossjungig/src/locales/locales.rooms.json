@@ -1,0 +1,35 @@
+{
+  "title": {
+    "en": "Rooms",
+    "de": "Zimmer"
+  },
+  "neighborhood": {
+    "en": "District",
+    "de": "Bezirk"
+  },
+  "add": {
+    "en": "Add New Room",
+    "de": "Neue Zimmer hinzufügen"
+  },
+  "search": {
+    "en": "Search Room by Postcode",
+    "de": "Zimmer sortieren beim Postleitzahl"
+  },
+  "placeholder": {
+    "en": "Search by Postcode",
+    "de": "Zimmer beim Postleitzahl"
+  },
+  "images": {
+    "en": "Upload your pictures",
+    "de": "Bildern hochladen"
+  },
+  "suburb": {
+    "en": "Suburb",
+    "de": "Stadteil"
+  },
+
+  "name": {
+    "en": "Room",
+    "de": "Zimmer"
+  }
+}

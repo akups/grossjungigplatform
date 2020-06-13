@@ -1,0 +1,33 @@
+{
+  "home": {
+    "en": "Home",
+    "de": "Startseite"
+  },
+  "login": {
+    "en": "Login",
+    "de": "Einloggen"
+  },
+  "signup": {
+    "en": "Sign Up",
+    "de": "Registrieren"
+  },
+
+  "logout": {
+    "en": "Log Out",
+    "de": "Abmelden"
+  },
+  "add": {
+    "en": "Add a new room",
+    "de": "Neue raum hinzufügen"
+  },
+
+  "berlin": {
+    "en": "Berlin",
+    "de": "Berlin"
+  },
+
+  "munich": {
+    "en": "Munich",
+    "de": "München"
+  }
+}

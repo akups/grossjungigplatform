@@ -1,0 +1,34 @@
+{
+  "title": {
+    "en": "Create New Account",
+    "de": "Konto Erstellen"
+  },
+  "senior": {
+    "en": "Senior",
+    "de": "Senioren"
+  },
+  "youth": {
+    "en": "youth",
+    "de": "Jugend"
+  },
+  "password": {
+    "en": "Password",
+    "de": "Passwort"
+  },
+  "email": {
+    "en": "Email",
+    "de": "E-Mail Adresse"
+  },
+  "role": {
+    "en": "Role",
+    "de": "Rolle "
+  },
+  "welcome": {
+    "en": "Welcome! Please create an account",
+    "de": "Willkommen! Bitte erstellen Sie ein Konto. "
+  },
+  "submit": {
+    "en": "Submit",
+    "de": "Weiter"
+  }
+}

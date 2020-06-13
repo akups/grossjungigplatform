@@ -1,0 +1,18 @@
+{
+  "greeting": {
+    "en": "Welcome Back",
+    "de": "Willkommen"
+  },
+  "article": {
+    "en": "Check out what's new!",
+    "de": "Schauen Sie, was neu ist an!"
+  },
+  "rooms": {
+    "en": "Find a room in Berlin",
+    "de": "Zimmer im Berlin finden"
+  },
+  "map": {
+    "en": "View City Map",
+    "de": "Stadtkarte anschauen"
+  }
+}

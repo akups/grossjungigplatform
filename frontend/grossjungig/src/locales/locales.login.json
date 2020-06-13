@@ -1,0 +1,22 @@
+{
+  "title": {
+    "en": "Login",
+    "de": "Anmelden"
+  },
+  "prompt": {
+    "en": "Welcome back! Please log in to continue.",
+    "de": "Willkommen zurück! Bitte loggen Sie sich ein."
+  },
+  "email": {
+    "en": "Email",
+    "de": "E-Mail Adresse"
+  },
+  "password": {
+    "en": "Password",
+    "de": "Passwort"
+  },
+  "login": {
+    "en": "Login",
+    "de": "Weiter"
+  }
+}
