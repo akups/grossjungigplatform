@@ -9,12 +9,12 @@ const logger = require("morgan");
 const app = express();
 const cors = require("cors");
 
-const corsOptions = {
-  origin: "https://grossjungigplatform.herokuapp.com",
-  optionsSuccessStatus: 200,
-};
-app.use(cors(corsOptions));
-app.options("*", cors());
+// const corsOptions = {
+//   origin: "https://grossjungigplatform.herokuapp.com",
+//   optionsSuccessStatus: 200,
+// };
+// app.use(cors(corsOptions));
+// app.options("*", cors());
 
 // app.use(cors({ origin: ["http://localhost:3000"] }));
 app.use(fileUpload());
