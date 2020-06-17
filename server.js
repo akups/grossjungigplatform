@@ -9,7 +9,14 @@ const logger = require("morgan");
 const app = express();
 const cors = require("cors");
 
-app.use(cors({ origin: ["http://localhost:3000"] }));
+const corsOptions = {
+  origin: "https://grossjungigplatform.herokuapp.com",
+  optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
+app.options("*", cors());
+
+// app.use(cors({ origin: ["http://localhost:3000"] }));
 app.use(fileUpload());
 app.use(express.static("frontend/build")); // 2. this was added as part of deployment process in order to allow people to view from any server
 

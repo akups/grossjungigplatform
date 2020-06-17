@@ -36,9 +36,9 @@ class Signup extends Component {
       })
       .catch((err) => {
         console.log("this is the error", err);
-        /*  this.setState({
+        this.setState({
           message: err.response.data.message,
-        }); */
+        });
       });
   };
 
