@@ -7,7 +7,7 @@ const express = require("express");
 const fileUpload = require("express-fileupload");
 const logger = require("morgan");
 const app = express();
-const cors = require("cors");
+// const cors = require("cors");
 
 // const corsOptions = {
 //   origin: "https://grossjungigplatform.herokuapp.com",
