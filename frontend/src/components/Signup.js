@@ -10,6 +10,7 @@ class Signup extends Component {
     password: "",
     role: "senior",
     redirect: false,
+    message: "",
   };
 
   handleSubmit = (event) => {

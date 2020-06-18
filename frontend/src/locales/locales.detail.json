@@ -1,0 +1,34 @@
+{
+  "name": {
+    "en": "Name",
+    "de": "Name"
+  },
+  "address": {
+    "en": "Address",
+    "de": "Adresse"
+  },
+  "postcode": {
+    "en": "Postcode",
+    "de": "Postleitzahl"
+  },
+  "city": {
+    "en": "City",
+    "de": "Stadt"
+  },
+  "phone": {
+    "en": "Phone Number",
+    "de": "Telefonnummer"
+  },
+  "email": {
+    "en": "Email",
+    "de": "E-mail"
+  },
+  "return": {
+    "en": "Return to Berlin",
+    "de": "Zurück zu Berlin"
+  },
+  "suburb": {
+    "en": "Suburb",
+    "de": "Stadteil"
+  }
+}

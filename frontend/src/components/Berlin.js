@@ -13,7 +13,7 @@ class Berlin extends Component {
   };
   //1. from frontend, axios request a room data-> route rooms.js
   componentDidMount() {
-    axios.get("/api/rooms").then((response) => {
+    axios.get("http://localhost:5555/api/rooms").then((response) => {
       console.log(response.data.rooms);
       this.setState({
         rooms: response.data.rooms,
@@ -77,7 +77,7 @@ class Berlin extends Component {
           onChange={this.searchedName}
           placeholder={roomsLocales.placeholder[lang]}
         />
-        <label htmlFor="filterbydistrict">Select: </label>
+        <label htmlFor="filterbydistrict">{roomsLocales.select[lang]}: </label>
         <select
           name="select"
           type="select"

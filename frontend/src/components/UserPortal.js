@@ -19,14 +19,16 @@ class UserPortal extends Component {
         </h1>
         <article>{portalLocales.article[lang]}</article>
         <p></p>
-        <Link to="/rooms">
+        <Link to="/berlin">
           <button>{portalLocales.rooms[lang]}</button>
         </Link>
         <Link to="/map">
           <button>{portalLocales.map[lang]}</button>
         </Link>
         <Link to="/addroom">
-          {this.props.user.role === "senior" ? <button>Add room</button> : null}
+          {this.props.user.role === "senior" ? (
+            <button>{portalLocales.add}</button>
+          ) : null}
         </Link>
       </div>
     );

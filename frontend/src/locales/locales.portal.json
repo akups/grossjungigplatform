@@ -11,6 +11,10 @@
     "en": "Find a room in Berlin",
     "de": "Zimmer im Berlin finden"
   },
+  "add": {
+    "en": "Add New Room",
+    "de": "Neue Zimmer hinzufügen"
+  },
   "map": {
     "en": "View City Map",
     "de": "Stadtkarte anschauen"

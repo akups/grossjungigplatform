@@ -11,9 +11,13 @@
     "en": "Add New Room",
     "de": "Neue Zimmer hinzufügen"
   },
+  "select": {
+    "en": "Select Room by district",
+    "de": "Zimmer bei Bezirk auswahlen"
+  },
   "search": {
     "en": "Search Room by Postcode",
-    "de": "Zimmer sortieren beim Postleitzahl"
+    "de": "Zimmer ausuchen beim Postleitzahl"
   },
   "placeholder": {
     "en": "Search by Postcode",

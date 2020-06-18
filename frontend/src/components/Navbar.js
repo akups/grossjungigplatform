@@ -22,7 +22,7 @@ const Navbar = (props) => {
   };
 
   const logout = () => {
-    axios.delete("/api/auth/logout").then(() => {
+    axios.delete("http://localhost:5555/api/auth/logout").then(() => {
       props.setUser(null);
     });
   };
